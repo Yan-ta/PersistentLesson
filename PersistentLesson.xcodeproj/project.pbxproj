@@ -14,6 +14,11 @@
 		2CE4ED4D283C02C800616E5C /* PersistentLesson.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4ED4B283C02C800616E5C /* PersistentLesson.xcdatamodeld */; };
 		2CE4ED4F283C02CA00616E5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CE4ED4E283C02CA00616E5C /* Assets.xcassets */; };
 		2CE4ED52283C02CA00616E5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CE4ED50283C02CA00616E5C /* LaunchScreen.storyboard */; };
+		2CE4ED5D283C09DC00616E5C /* Company+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4ED59283C09DC00616E5C /* Company+CoreDataClass.swift */; };
+		2CE4ED5E283C09DC00616E5C /* Company+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4ED5A283C09DC00616E5C /* Company+CoreDataProperties.swift */; };
+		2CE4ED5F283C09DC00616E5C /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4ED5B283C09DC00616E5C /* User+CoreDataClass.swift */; };
+		2CE4ED60283C09DC00616E5C /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4ED5C283C09DC00616E5C /* User+CoreDataProperties.swift */; };
+		2CE4ED62283C0BDF00616E5C /* DataStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4ED61283C0BDF00616E5C /* DataStoreManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		2CE4ED4E283C02CA00616E5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CE4ED51283C02CA00616E5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CE4ED53283C02CA00616E5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CE4ED59283C09DC00616E5C /* Company+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Company+CoreDataClass.swift"; path = "PersistentLesson/Company+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2CE4ED5A283C09DC00616E5C /* Company+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Company+CoreDataProperties.swift"; path = "PersistentLesson/Company+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2CE4ED5B283C09DC00616E5C /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "User+CoreDataClass.swift"; path = "PersistentLesson/User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2CE4ED5C283C09DC00616E5C /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "User+CoreDataProperties.swift"; path = "PersistentLesson/User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2CE4ED61283C0BDF00616E5C /* DataStoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStoreManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +52,10 @@
 		2CE4ED36283C02C800616E5C = {
 			isa = PBXGroup;
 			children = (
+				2CE4ED59283C09DC00616E5C /* Company+CoreDataClass.swift */,
+				2CE4ED5A283C09DC00616E5C /* Company+CoreDataProperties.swift */,
+				2CE4ED5B283C09DC00616E5C /* User+CoreDataClass.swift */,
+				2CE4ED5C283C09DC00616E5C /* User+CoreDataProperties.swift */,
 				2CE4ED41283C02C800616E5C /* PersistentLesson */,
 				2CE4ED40283C02C800616E5C /* Products */,
 			);
@@ -59,13 +73,14 @@
 			isa = PBXGroup;
 			children = (
 				2CE4ED42283C02C800616E5C /* AppDelegate.swift */,
+				2CE4ED61283C0BDF00616E5C /* DataStoreManager.swift */,
 				2CE4ED44283C02C800616E5C /* SceneDelegate.swift */,
-				2CE4ED46283C02C800616E5C /* ViewController.swift */,
 				2CE4ED48283C02C800616E5C /* Main.storyboard */,
 				2CE4ED4E283C02CA00616E5C /* Assets.xcassets */,
 				2CE4ED50283C02CA00616E5C /* LaunchScreen.storyboard */,
 				2CE4ED53283C02CA00616E5C /* Info.plist */,
 				2CE4ED4B283C02C800616E5C /* PersistentLesson.xcdatamodeld */,
+				2CE4ED46283C02C800616E5C /* ViewController.swift */,
 			);
 			path = PersistentLesson;
 			sourceTree = "<group>";
@@ -143,8 +158,13 @@
 			files = (
 				2CE4ED47283C02C800616E5C /* ViewController.swift in Sources */,
 				2CE4ED43283C02C800616E5C /* AppDelegate.swift in Sources */,
+				2CE4ED60283C09DC00616E5C /* User+CoreDataProperties.swift in Sources */,
+				2CE4ED5E283C09DC00616E5C /* Company+CoreDataProperties.swift in Sources */,
 				2CE4ED4D283C02C800616E5C /* PersistentLesson.xcdatamodeld in Sources */,
 				2CE4ED45283C02C800616E5C /* SceneDelegate.swift in Sources */,
+				2CE4ED5D283C09DC00616E5C /* Company+CoreDataClass.swift in Sources */,
+				2CE4ED5F283C09DC00616E5C /* User+CoreDataClass.swift in Sources */,
+				2CE4ED62283C0BDF00616E5C /* DataStoreManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
